@@ -80,6 +80,7 @@ def predict_price(location, sqft, bath, bhk):
     x[2] = bhk
     x[loc_index] = 1
     return model.predict([x])[0]
+```
 
 
 
