@@ -80,3 +80,29 @@ def predict_price(location, sqft, bath, bhk):
     x[2] = bhk
     x[loc_index] = 1
     return model.predict([x])[0]
+
+
+
+## Usage
+
+1. **Clone the Repository**:
+
+   ```bash
+   git clone https://github.com/yourusername/smart-bangalore-house-price-estimator.git
+
+2. **Navigate to the Project Directory**:
+
+   ```bash
+   cd smart-bangalore-house-price-estimator
+
+
+3. **Run the Prediction Script**:
+
+   ```bash
+   python predict_price.py
+
+
+ ## Contributing
+
+Feel free to fork the repository and submit pull requests. For any issues or enhancements, please open an issue in the GitHub repository.
+
